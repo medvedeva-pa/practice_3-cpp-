@@ -12,13 +12,13 @@ int main()
     int y;
 
 
-    cout << "Введите день рождения: \n";
+    cout << "Введите день рождения: ";
     cin >> d;
 
-    cout << "Введите месяц рождения: \n";
+    cout << "Введите месяц рождения: ";
     cin >> m;
 
-    cout << "Введите год рождения: \n";
+    cout << "Введите год рождения: ";
     cin >> y;
 
     int day = ltm->tm_mday - d;
@@ -50,7 +50,7 @@ int main()
         case -2:
         case 0:
             day += 31;
-            cout << "???\n" << endl;
+            cout << "???" << endl;
             break;
         case 4:
         case 6:
